@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c29336ff-fd5e-45f2-be7b-ef269f6f16d4" name="Default Changelist" comment="x">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_store/struct/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/home_store/struct/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,20 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2021\testgo\home_store\struct\inherit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build inherit.go">
+    <configuration name="go build inherit.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/home_store/struct/inherit/inherit.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -82,8 +96,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build inherit.go" />
         <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -106,28 +121,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="x" />
-    <option name="LAST_COMMIT_MESSAGE" value="x" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1865" height="262" key="GridCell.Tab.0.bottom" timestamp="1640796762256">
+    <state width="1146" height="257" key="GridCell.Tab.0.bottom" timestamp="1640878496871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640796762256" />
-    <state width="1865" height="262" key="GridCell.Tab.0.center" timestamp="1640796762256">
+    <state width="1146" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640878496871" />
+    <state width="1146" height="257" key="GridCell.Tab.0.center" timestamp="1640878496871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640796762256" />
-    <state width="1865" height="262" key="GridCell.Tab.0.left" timestamp="1640796762256">
+    <state width="1146" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640878496871" />
+    <state width="1146" height="257" key="GridCell.Tab.0.left" timestamp="1640878496871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640796762256" />
-    <state width="1865" height="262" key="GridCell.Tab.0.right" timestamp="1640796762256">
+    <state width="1146" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640878496871" />
+    <state width="1146" height="257" key="GridCell.Tab.0.right" timestamp="1640878496871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640796762256" />
-    <state x="452" y="172" key="Vcs.Push.Dialog.v2" timestamp="1640796753981">
+    <state width="1146" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640878496871" />
+    <state x="452" y="172" key="Vcs.Push.Dialog.v2" timestamp="1640874208200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640796753981" />
+    <state x="452" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640874208200" />
   </component>
 </project>
