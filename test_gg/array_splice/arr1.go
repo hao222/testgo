@@ -5,8 +5,8 @@ import (
 )
 
 // 切片的两个属性长度和容量, 可以通过内建函数len和cap获得  底层为struct
-//切片的长度是它所包含的元素个数。  切片是引用类型
-//切片的容量是从它的第一个元素到其底层数组元素末尾的个数。 cap 最大能存储多少元素
+// 切片的长度是它所包含的元素个数。  切片是引用类型
+// 切片的容量是从它的第一个元素到其底层数组元素末尾的个数。 cap 最大能存储多少元素
 // new 只分配内存，而 make 只能用于 slice、map 和 channel 的初始化
 // 切片初始化时, 仍然不能越界, 范围在 0- len(arr)  可以动态增长
 // copy 拷贝切片
@@ -68,9 +68,53 @@ func Binary(arr *[6]int, leftIndex int, rightIndex int, findin int) {
 
 }
 
-//
+// 二维数组
+func arr2() {
 
-// 数组  值类型数据
+	var arr [4][6]int
+	arr[1][2] = 2
+	arr[2][1] = 1
+	for i := 0; i < len(arr); i++ {
+		for j := 0; j < len(arr[i]); j++ {
+			fmt.Print(arr[i][j], " ")
+		}
+		fmt.Println()
+	}
+	var arr2 = [2][3]int{{1, 2, 3}, {4, 5, 6}}
+	for i, v := range arr2 {
+		fmt.Printf("arr3 %v %v", i, v)
+	}
+
+}
+
+// 实现在一个排序好升序的数组内插入一个数， 按照原来的排序规律
+func orderList() {
+	var arr = [6]int{1, 4, 8, 10, 22}
+	var tmp int
+	var tmp2 int
+	inserta := 3
+	if inserta > arr[4] {
+		arr[5] = inserta
+	} else {
+		for i := 0; i < 6; i++ {
+			if arr[i] > inserta {
+				tmp = arr[i]
+				arr[i] = inserta
+				for j := i + 1; j < 6; j++ {
+					tmp2 = arr[j]
+					arr[j] = tmp
+					tmp = tmp2
+				}
+				break
+			}
+		}
+	}
+	for i := 0; i < 6; i++ {
+		fmt.Printf(" %v", arr[i])
+	}
+	println()
+
+}
 
 // &myarr 数组地址   数组第一个元素地址就是数据的首地址
 // 数组是多个相同类型数据的组合， 一旦声明定义， 长度是固定的，不能动态变化 可以是任何数据类型，不能混用 创建后会有默认值
@@ -104,4 +148,6 @@ func main() {
 	Bubble(&arr1)
 	arr := [6]int{4, 7, 1, 3, 7, 2}
 	Binary(&arr, 0, len(arr)-1, 3)
+	arr2()
+	orderList()
 }
