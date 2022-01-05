@@ -23,13 +23,11 @@ func (p *Puplie) tesing() {
 	fmt.Println("这是Puplie的私有方法")
 }
 
-func main()  {
-
+func main() {
 	var pp = Puplie{}
 	pp.Stu.Name = "xxx"
 	pp.Stu.Age = 12
 	pp.Score = 121
 	pp.tesing()
 	pp.Stu.ShowInfo()
-
 }
