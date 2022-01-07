@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// struct， go没有class 但是可以围绕struct进行类的操作 有封装， 继承和多肽通过 你名字短或者接口来实现
+// struct, go没有class 但是可以围绕struct进行类的操作 有封装， 继承和多态通过 你名字短或者接口来实现
 // OOP面向对象  面向接口编程
 
 // 指针 slice map的零值都是nil  即没有分配内存空间
