@@ -63,7 +63,7 @@ func MakeSuffix2(name, suffix string) string {
 // 执行到defer 暂时不执行， 会将defer后面的语句压入到独立的栈defer栈
 // 当函数执行完毕后， 再从defer栈， 按照先入后出的方式出栈， 执行
 // 在defer将语句放入到栈时， 也会将相关的值拷贝同时入栈
-// 当函数执行完毕后, 可以及时的释放函数创建的资源  defer file.close()
+// 当函数执行完毕后, 可以及时的释放函数创建的资源  defer read_file.close()
 func Sums(n1, n2 int) int {
 	defer println("这是defer1.。。", n1)  // 3
 	defer println("这是defer2.。。。", n2) // 2
