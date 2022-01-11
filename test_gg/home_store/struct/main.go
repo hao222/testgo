@@ -13,17 +13,18 @@ type Stu struct {
 type S Stu
 
 type student struct {
-	Name string
+	Name  string
 	score float64
 }
 
 // 工厂模式  如果属性时小写 也不能在其他包直接获取， 可以定义一个方法获取
-func Factory(n string ,s float64) *student {
+func Factory(n string, s float64) *student {
 	return &student{
-		Name: n,
+		Name:  n,
 		score: s,
 	}
 }
+
 // 也是一种封装  设置set get方法
 func (s *student) GetScore() float64 {
 	return s.score

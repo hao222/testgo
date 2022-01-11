@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 )
-import "test_gg/module"
+import "test_gg/test_gg/module"
 
 func main() {
 	str := "true"
