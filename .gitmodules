@@ -1,3 +1,0 @@
-[submodule "testgo"]
-	path = testgo
-	url = git@github.com:hao222/testgo.git
