@@ -1,0 +1,3 @@
+[submodule "sub_b"]
+	path = sub_b
+	url = git@github.com:hao222/-.git
