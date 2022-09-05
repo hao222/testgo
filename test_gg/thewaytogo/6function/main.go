@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"time"
 )
 
 // 值传递  引用传递
@@ -49,6 +50,13 @@ func main() {
 	// 闭包经常被用作包装函数：它们会预先定义好 1 个或多个参数以用于包装。另一个不错的应用就是使用闭包来完成更加简洁的错误检查
 	xx := func(x, y int) int { return x + y }(3, 4)
 	println("匿名函数：----", xx)
+
+	start := time.Now()
+	Add(1, 3)
+	end := time.Now()
+	delta := end.Sub(start)
+	fmt.Printf("Add took this amount of time: %s\n", delta)
+
 }
 
 func MultiPly3Nums(a int, b int, c int) int {
@@ -104,10 +112,10 @@ func function1() {
 	fmt.Printf("In function1 at the bottom!\n")
 }
 func function2() {
-	fmt.Printf("Function2: Deferred until the end of the calling function!")
+	fmt.Printf("Function2: Deferred until the end of the calling 6function!")
 }
 
-//当有多个 defer 行为被注册时，它们会以逆序执行（类似栈，即后进先出）
+// 当有多个 defer 行为被注册时，它们会以逆序执行（类似栈，即后进先出）
 func a() {
 	i := 0
 	//defer fmt.Println(i)   // 打印0

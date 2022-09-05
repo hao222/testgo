@@ -13,7 +13,7 @@ type Stu struct {
 }
 
 // map 的key 支持 bool int float string * channel interface struct array
-// slice map function 不可以做key  无法判断
+// slice map 6function 不可以做key  无法判断
 // 声明是不会分配内存的， 初始化需要make， 分配内存后才能赋值和使用  目前有序
 func main() {
 

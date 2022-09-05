@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48967cb5-83f7-4726-9a6c-2253ccf0340b" name="Changes" comment="">
+    <list default="true" id="48967cb5-83f7-4726-9a6c-2253ccf0340b" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_gg/goroutine/routine_channel/case3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/goroutine/routine_channel/case3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_gg/map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/map/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_gg/thewaytogo/function/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/thewaytogo/6function/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../go" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -81,75 +82,92 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice" />
       <recent name="C:\localuse\py_test\go_test\testgo\test_gg\goroutine\routine_channel\case1" />
       <recent name="C:\localuse\py_test\go_test\testgo\test_gg\goroutine\ccc" />
       <recent name="E:\2021\testgo\home_store\struct\inherit" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test_gg/test_gg/redis">
-    <configuration name="go build test_gg/test_gg/network/tcp" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/2slice">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/network/tcp" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/network/tcp/main.go" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_gg/test_gg/network/tcp/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/network/tcp/client" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/network/tcp/client/client.go" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/function/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_gg/test_gg/network/tcp/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_gg/test_gg/thewaytogo/6function" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/network/tcp/server" />
+      <package value="test_gg/test_gg/thewaytogo/6function" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/network/tcp/server/server.go" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/6function/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_gg/test_gg/redis" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_gg/test_gg/thewaytogo/7array&amp;slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/redis" />
+      <package value="test_gg/test_gg/thewaytogo/7array&amp;slice" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/redis/main.go" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/7array&amp;slice/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_gg/test_gg/reflect/case2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_gg/test_gg/thewaytogo/7array_slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/reflect/case2" />
+      <package value="test_gg/test_gg/thewaytogo/7array_slice" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/reflect/case2/main.go" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_gg/test_gg/thewaytogo/7array_slice/2slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test_gg/test_gg/thewaytogo/7array_slice/2slice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice/2slice.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build test_gg/test_gg/reflect/case2" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/network/tcp" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/network/tcp/server" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/network/tcp/client" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/redis" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/6function" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array&amp;slice" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/2slice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build test_gg/test_gg/redis" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/network/tcp/client" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/network/tcp/server" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/network/tcp" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/reflect/case2" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/2slice" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array&amp;slice" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/6function" />
+        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
