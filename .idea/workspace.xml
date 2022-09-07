@@ -22,11 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48967cb5-83f7-4726-9a6c-2253ccf0340b" name="Changes" comment="1">
+    <list default="true" id="48967cb5-83f7-4726-9a6c-2253ccf0340b" name="Changes" comment="review and insert">
+      <change afterPath="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/6summary/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_gg/map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/map/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_gg/thewaytogo/function/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/thewaytogo/6function/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice/2slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice/2slice.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +85,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/6章总" />
       <recent name="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice" />
       <recent name="C:\localuse\py_test\go_test\testgo\test_gg\goroutine\routine_channel\case1" />
       <recent name="C:\localuse\py_test\go_test\testgo\test_gg\goroutine\ccc" />
       <recent name="E:\2021\testgo\home_store\struct\inherit" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/2slice">
+  <component name="RunManager" selected="Go Build.go build test_gg/test_gg/thewaytogo/8map">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,23 +100,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/function/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test_gg/test_gg/thewaytogo/6function" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/thewaytogo/6function" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/6function/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test_gg/test_gg/thewaytogo/7array&amp;slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -146,6 +129,33 @@
       <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice/2slice.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test_gg/test_gg/thewaytogo/7array_slice/6章总" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test_gg/test_gg/thewaytogo/7array_slice/6章总" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/6章总/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_gg/test_gg/thewaytogo/7array_slice/6summary" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test_gg/test_gg/thewaytogo/7array_slice/6summary" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/6summary/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_gg/test_gg/thewaytogo/8map" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test_gg/test_gg/thewaytogo/8map" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/8map/1.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -157,17 +167,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/6function" />
       <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array&amp;slice" />
       <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/2slice" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/6章总" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/6summary" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/8map" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/8map" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/6summary" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/6章总" />
         <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array_slice/2slice" />
         <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/7array&amp;slice" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/6function" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +201,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="x" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="review and insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="review and insert" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
