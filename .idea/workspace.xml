@@ -24,8 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48967cb5-83f7-4726-9a6c-2253ccf0340b" name="Changes" comment="review and insert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <recent name="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test_gg/test_gg/thewaytogo/10struct_method">
+  <component name="RunManager" selected="Go Build.go build method.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,6 +101,22 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build iner_annoy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/5inner_anony/iner_annoy.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build method.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/6method/method.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build test_gg/test_gg/thewaytogo/10struct_method" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -109,33 +124,6 @@
       <package value="test_gg/test_gg/thewaytogo/10struct_method" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/1.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test_gg/test_gg/thewaytogo/7array_slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/thewaytogo/7array_slice" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test_gg/test_gg/thewaytogo/8map" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/thewaytogo/8map" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/8map/1.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test_gg/test_gg/thewaytogo/9package" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/thewaytogo/9package" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/9package/2regexp.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test_gg/test_gg/thewaytogo/9package/11use_package" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -167,19 +155,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/8map" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/9package" />
       <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/9package/4big_jingmijisuan" />
       <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/9package/11use_package" />
       <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/10struct_method" />
+      <item itemvalue="Go Build.go build iner_annoy.go" />
+      <item itemvalue="Go Build.go build method.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build method.go" />
+        <item itemvalue="Go Build.go build iner_annoy.go" />
         <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/10struct_method" />
         <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/9package/11use_package" />
         <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/9package/4big_jingmijisuan" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/9package" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/8map" />
       </list>
     </recent_temporary>
   </component>

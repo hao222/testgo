@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 // 定制类型： 通过类型别名和结构体形式
 // 组成结构体类型的那些数据称为 字段 (fields)。每个字段都有一个类型和一个名字；在一个结构体中，字段名字必须是唯一的
@@ -11,6 +14,9 @@ import "fmt"
 //	filed1 type1
 //	filed2 type2
 //}
+
+// 类型就是类
+// 代码复用通过组合和委托实现 多态通过接口的使用来实现
 
 type T struct{ a, b int }
 type struct1 struct {
@@ -51,4 +57,34 @@ type Tree struct {
 	le   *Tree
 	data float64
 	ri   *Tree
+}
+
+// 使用工厂构建结构体实例
+type File struct {
+	fd   int
+	name string
+}
+
+func NewFile(fd int, name string) *File {
+	if fd < 0 {
+		return nil
+	}
+	return &File{fd, name}
+
+	//// 强制使用工厂方法
+	//nf := new(File)
+	//return nf
+}
+
+// tags 打标签 注释 通过reflect typeof 获取
+type TagType struct { // tags
+	field1 bool   "An important answer"
+	field2 string "The name of the thing"
+	field3 int    "How much there are"
+}
+
+func refTag(tt TagType, ix int) {
+	ttType := reflect.TypeOf(tt)
+	ixField := ttType.Field(ix)
+	fmt.Printf("%v\n", ixField.Tag)
 }
