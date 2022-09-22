@@ -16,3 +16,4 @@
 
 test_gg/gg_test
 *.idea
+.idea/workspace.xml
