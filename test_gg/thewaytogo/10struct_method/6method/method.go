@@ -58,7 +58,7 @@ func (c *Customer) Log() *Log {
 type Base struct{}
 
 func (Base) Magic() {
-	fmt.Println("base magic")
+	fmt.Println("14.1base magic")
 }
 
 func (self Base) MoreMagic() {

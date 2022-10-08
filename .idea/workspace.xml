@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48967cb5-83f7-4726-9a6c-2253ccf0340b" name="Changes" comment="review and insert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/6method/method.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/6method/method.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +84,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_gg/thewaytogo/11interface_reflection/11.14" />
+      <recent name="$PROJECT_DIR$/test_gg/thewaytogo/11interface_reflection/11.7Sorter/sort" />
       <recent name="$PROJECT_DIR$/test_gg/thewaytogo/9package/4big_jingmijisuan/self_add" />
       <recent name="$PROJECT_DIR$/test_gg/thewaytogo/9package" />
       <recent name="$PROJECT_DIR$/test_gg/thewaytogo/9package/synclock" />
-      <recent name="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/6章总" />
-      <recent name="$PROJECT_DIR$/test_gg/thewaytogo/7array_slice/2slice" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build interface.go">
+  <component name="RunManager" selected="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.6shell">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,46 +101,49 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build iner_annoy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/5inner_anony/iner_annoy.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/11interface*reflection/11.1interface/interface.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build method.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="testgo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/6method/method.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test_gg/test_gg/thewaytogo/10struct_method/7string" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_gg/test_gg/thewaytogo/12file_operation/12.12encrypt" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/thewaytogo/10struct_method/7string" />
+      <package value="test_gg/test_gg/thewaytogo/12file_operation/12.12encrypt" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/7string/type_string.go" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/12file_operation/12.12encrypt/encrypt.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_gg/test_gg/thewaytogo/10struct_method/7string/7.1stack_arr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_gg/test_gg/thewaytogo/13trycache/13.1messing" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="testgo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="test_gg/test_gg/thewaytogo/10struct_method/7string/7.1stack_arr" />
+      <package value="test_gg/test_gg/thewaytogo/13trycache/13.1messing" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/10struct_method/7string/7.1stack_arr/stack_arr.go" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/13trycache/13.1messing/defer_panic.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_gg/test_gg/thewaytogo/13trycache/13.2panic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test_gg/test_gg/thewaytogo/13trycache/13.2panic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/13trycache/13.2panic/panic.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_gg/test_gg/thewaytogo/13trycache/13.3define_package/panic_package" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test_gg/test_gg/thewaytogo/13trycache/13.3define_package/panic_package" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/13trycache/13.3define_package/panic_package/panic_package.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_gg/test_gg/thewaytogo/13trycache/13.6shell" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="testgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="test_gg/test_gg/thewaytogo/13trycache/13.6shell" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test_gg/thewaytogo/13trycache/13.6shell/sh.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -153,19 +157,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build iner_annoy.go" />
-      <item itemvalue="Go Build.go build method.go" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/10struct_method/7string" />
-      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/10struct_method/7string/7.1stack_arr" />
-      <item itemvalue="Go Build.go build interface.go" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/12file_operation/12.12encrypt" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.1messing" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.2panic" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.3define_package/panic_package" />
+      <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.6shell" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build interface.go" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/10struct_method/7string/7.1stack_arr" />
-        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/10struct_method/7string" />
-        <item itemvalue="Go Build.go build method.go" />
-        <item itemvalue="Go Build.go build iner_annoy.go" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.6shell" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.3define_package/panic_package" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.2panic" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/13trycache/13.1messing" />
+        <item itemvalue="Go Build.go build test_gg/test_gg/thewaytogo/12file_operation/12.12encrypt" />
       </list>
     </recent_temporary>
   </component>
