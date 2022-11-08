@@ -15,5 +15,6 @@
 # vendor/
 
 test_gg/gg_test
-*.idea
+.idea
 .idea/workspace.xml
+workspace.xml
