@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-// 使用select切换协程，
+// 使用select切换协程
 // 从不同的并发执行的协程中获取值可以通过关键字 select 来完成， select case
 // select 做的就是：选择处理列出的多个通信情况中的一个， 如果多个符合则会随机选择一个
 // 在select中使用发送操作并且有 default 可以确保发送不被阻塞
